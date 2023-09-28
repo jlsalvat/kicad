@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "add_on")(type "KiCad")(uri "${KIPRJMOD}/ultralibarian/2023-09-27_07-31-49.kicad_sym")(options "")(descr ""))
+  (lib (name "kbp210")(type "KiCad")(uri "${KIPRJMOD}/ultralibarian/KBP210/2023-09-27_09-58-14.kicad_sym")(options "")(descr ""))
+  (lib (name "B80C80")(type "KiCad")(uri "${KIPRJMOD}/ultralibarian/B80C80/2023-09-27_10-13-21.kicad_sym")(options "")(descr ""))
+  (lib (name "douilles")(type "KiCad")(uri "F:/Documents/GitHub/kicad/carte_thyristor_triac/componentsearchengine_com/SWEB_8094_Au___SW.kicad_sym")(options "")(descr ""))
+)
