@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\Documents\GitHub\kicad\carte_thyristor_triac\sae_four_manip_triac\SAE_four_manip_triac.kicad_sch</source>
+    <date>22/10/2023 22:26:00</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SAE_four_manip_triac.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>220uF 25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39404efa-f31e-4bb9-9d8e-f1cd40700488</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f8c3148-605c-4ad2-95bc-ea775554d0ae</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e993c3f3-f1b4-43ae-ba40-6c4dda94ee90</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0fbe3ee-da4b-4806-a904-8b1eb698cdff</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>803a8e68-9919-4b6c-ba0a-bc94739ef4e1</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b510be3d-ecc7-4adc-a686-9d29856d4fd3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SWEB_8094_Au___SW</value>
+      <footprint>SamacSys_Parts:douille_4mm_SWEB_8094_rouge</footprint>
+      <datasheet>https://docs.rs-online.com/5e82/0900766b815e909b.pdf</datasheet>
+      <fields>
+        <field name="Height">11.5</field>
+        <field name="Manufacturer_Name">Schutzinger</field>
+        <field name="Manufacturer_Part_Number">SWEB 8094 Au / SW</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SWEB_8094_Au___SW" description="SCHUTZINGER - SWEB 8094 AU / SW - Banana Test Connector, Jack, PCB Mount, 24 A, 1 kV, Gold Plated Contacts, Black"/>
+      <property name="Height" value="11.5"/>
+      <property name="Manufacturer_Name" value="Schutzinger"/>
+      <property name="Manufacturer_Part_Number" value="SWEB 8094 Au / SW"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="SCHUTZINGER - SWEB 8094 AU / SW - Banana Test Connector, Jack, PCB Mount, 24 A, 1 kV, Gold Plated Contacts, Black"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1610e1db-019d-41cf-9a48-c0ef5fa37443</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9cad642-f0b3-47ff-b3fd-dfdf57604350</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Jack-DC</value>
+      <footprint>SamacSys_Parts:BarrelJack_GCT_DCJ200-10-A_Horizontal_3D</footprint>
+      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39ec6f2f-7da8-4e34-9498-ffc67019829f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>SWEB_8094_Au___SW</value>
+      <footprint>SamacSys_Parts:douille_4mm_SWEB_8094_noire</footprint>
+      <datasheet>https://docs.rs-online.com/5e82/0900766b815e909b.pdf</datasheet>
+      <fields>
+        <field name="Height">11.5</field>
+        <field name="Manufacturer_Name">Schutzinger</field>
+        <field name="Manufacturer_Part_Number">SWEB 8094 Au / SW</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SWEB_8094_Au___SW" description="SCHUTZINGER - SWEB 8094 AU / SW - Banana Test Connector, Jack, PCB Mount, 24 A, 1 kV, Gold Plated Contacts, Black"/>
+      <property name="Height" value="11.5"/>
+      <property name="Manufacturer_Name" value="Schutzinger"/>
+      <property name="Manufacturer_Part_Number" value="SWEB 8094 Au / SW"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="SCHUTZINGER - SWEB 8094 AU / SW - Banana Test Connector, Jack, PCB Mount, 24 A, 1 kV, Gold Plated Contacts, Black"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62c5f0c5-1b95-4945-a298-0352d9b0905f</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>213eb012-fddd-48fa-8ee6-c0b74f56b636</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f10da99a-e5b8-46ae-8d85-f7e2d9f37afb</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BT136-600</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.micropik.com/PDF/BT136-600.pdf</datasheet>
+      <libsource lib="Triac_Thyristor" part="BT136-600" description="4A RMS, 500V Off-State Voltage, Triac, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="4A RMS, 500V Off-State Voltage, Triac, TO-220"/>
+      <property name="ki_keywords" value="Triac"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36f27874-b17d-4b99-a564-cea46534af81</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4362f63d-de96-413c-9511-55387e00006d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75cb6388-b5aa-4790-9798-2285846b55cf</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>107a7d67-958f-4721-87ab-a81ebf95874b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>200R</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05feef60-2a20-42c8-91ad-fc55b6f696df</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>200R</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>624a937d-557d-4cdc-9629-468b1d32d421</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>200R</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>595583b9-9072-40c2-a6ff-8e1e211df58d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>4N35</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.vishay.com/docs/81181/4n35.pdf</datasheet>
+      <libsource lib="Isolator" part="4N35" description="Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"/>
+      <property name="ki_keywords" value="NPN DC Optocoupler Base Connected"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3929da5a-d91d-4c80-a8bb-bd9593df36f7</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>L78L05_TO92</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L78L05_TO92" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"/>
+      <property name="ki_keywords" value="Voltage Regulator 100mA Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4a5d864-671d-45f9-a582-bf2bc99e01e5</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MOC3022M</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF</datasheet>
+      <libsource lib="Relay_SolidState" part="MOC3022M" description="Random Phase Opto-Triac, Vdrm 400V, Ift 10mA, DIP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Random Phase Opto-Triac, Vdrm 400V, Ift 10mA, DIP6"/>
+      <property name="ki_keywords" value="Opto-Triac Opto Triac Random Phase"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b95faff-b993-4e52-945b-c30c3cff67d4</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>MOC3061M</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf</datasheet>
+      <libsource lib="Relay_SolidState" part="MOC3061M" description="Zero Cross Opto-Triac, Vdrm 600V, Ift 15mA, DIP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SAE_four_manip_triac.kicad_sch"/>
+      <property name="ki_description" value="Zero Cross Opto-Triac, Vdrm 600V, Ift 15mA, DIP6"/>
+      <property name="ki_keywords" value="Opto-Triac Opto Triac Zero Cross"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07763aec-437b-48e6-a271-18b0c28725fe</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Jack-DC">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Jack-DC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="4N35">
+      <description>Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6</description>
+      <docs>https://www.vishay.com/docs/81181/4n35.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4N35</field>
+        <field name="Footprint">Package_DIP:DIP-6_W7.62mm</field>
+        <field name="Datasheet">https://www.vishay.com/docs/81181/4n35.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L78L05_TO92">
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L78L05_TO92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="MOC3022M">
+      <description>Random Phase Opto-Triac, Vdrm 400V, Ift 10mA, DIP6</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+        <fp>DIP*W10.16mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOC3022M</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="MOC3061M">
+      <description>Zero Cross Opto-Triac, Vdrm 600V, Ift 15mA, DIP6</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+        <fp>DIP*W10.16mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOC3061M</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SWEB_8094_Au___SW">
+      <description>SCHUTZINGER - SWEB 8094 AU / SW - Banana Test Connector, Jack, PCB Mount, 24 A, 1 kV, Gold Plated Contacts, Black</description>
+      <docs>https://docs.rs-online.com/5e82/0900766b815e909b.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SWEB_8094_Au___SW</field>
+        <field name="Footprint">SWEB8094AuSW</field>
+        <field name="Datasheet">https://docs.rs-online.com/5e82/0900766b815e909b.pdf</field>
+        <field name="Height">11.5</field>
+        <field name="Manufacturer_Name">Schutzinger</field>
+        <field name="Manufacturer_Part_Number">SWEB 8094 Au / SW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Triac_Thyristor" part="BT136-600">
+      <description>4A RMS, 500V Off-State Voltage, Triac, TO-220</description>
+      <docs>http://www.micropik.com/PDF/BT136-600.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BT136-600</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.micropik.com/PDF/BT136-600.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Isolator.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Relay_SolidState.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>F:/Documents/GitHub/kicad/librairies/SamacSys_Parts.kicad_sym</uri>
+    </library>
+    <library logical="Triac_Thyristor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Triac_Thyristor.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D2-K)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J6-Pin_1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J7-Pin_1)">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(Q1-G)">
+      <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U6" pin="4" pintype="passive"/>
+      <node ref="U7" pin="4" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pintype="passive"/>
+      <node ref="U7" pin="6" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="VIN">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(U3-NC-Pad3)">
+      <node ref="U3" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(U6-NC-Pad3)">
+      <node ref="U6" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U6-NC-Pad5)">
+      <node ref="U6" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U7-NC-Pad3)">
+      <node ref="U7" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U7-NC-Pad5)">
+      <node ref="U7" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP C106DG
+D Thyristor SCR 400V 20A TO225
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_c106_d_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SWEB_8094_Au___SW
+D SCHUTZINGER - SWEB 8094 AU / SW - Banana Test Connector, Jack, PCB Mount, 24 A, 1 kV, Gold Plated Contacts, Black
+K
+F https://docs.rs-online.com/5e82/0900766b815e909b.pdf
+$ENDCMP
+#
+#End Doc Library
