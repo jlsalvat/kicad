@@ -1,18 +1,4 @@
-22208843971942833
-Audio_Module
-Reverb_BTDR-1H
-Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
-audio belton reverb
-0
-7
-7
-Audio_Module
-Reverb_BTDR-1V
-Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
-audio belton reverb
-0
-7
-7
+22213949592904798
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -84685,6 +84671,41 @@ rotary encoder
 0
 7
 6
+SamacSys_Parts
+BarrelJack_GCT_DCJ200-10-A_Horizontal_3D
+Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf
+connector barrel jack
+0
+3
+3
+SamacSys_Parts
+C106DG
+C106DG-1
+SCR
+0
+3
+3
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+douille_4mm_SWEB_8094_noire
+Fiche banane femelle 4 mm Schutzinger noire Femelle 24A 1000V
+
+0
+4
+4
+SamacSys_Parts
+douille_4mm_SWEB_8094_rouge
+Fiche banane femelle 4 mm Schutzinger Rouge Femelle 24A 1000V
+
+0
+4
+4
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
